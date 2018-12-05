@@ -1,0 +1,1224 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	background: #E0ECF8;
+}
+
+}
+header,.main,footer{
+
+	margin-right: 20px ;
+	max-width: 1000px;
+	
+}
+
+.logo{
+
+background: white;
+
+height: 100px;
+}
+.logo img{
+	margin-left: 150px;
+	margin-top: 15px;
+}
+.menu{
+	background: #C2C2C2;
+	overflow: hidden;
+	margin-left: auto;
+}
+.menu ul{
+	list-style: none;
+	overflow: hidden;
+	background: #FF0040;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	float: left;
+	margin-right: 20px;
+}
+.menu ul li{
+	float: left;
+}
+
+.menu ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	margin-left: 2px 2px;
+	margin: auto;
+}
+
+.menu ul li a:hover{
+	background: black;
+}
+.Fondo{
+font-size: cover;
+
+}
+.Planes{
+	position: absolute;
+	top: 93%;
+	background: #FF0040;
+	width: 90px;
+	height: 40px;
+	font-size: 20px;
+	margin-left: 150px;
+	text-align: center;
+	color: white;
+	list-style: none;
+}
+.Planes:hover{
+	-moz-transform: scale(1) rotate(-360deg) translateX(-1px) translateY(5px) skewX(5deg) skewY(1deg);
+-webkit-transform: scale(1) rotate(-360deg) translateX(-1px) translateY(5px) skewX(5deg) skewY(1deg);
+-o-transform: scale(1) rotate(-360deg) translateX(-1px) translateY(5px) skewX(5deg) skewY(1deg);
+-ms-transform: scale(1) rotate(-360deg) translateX(-1px) translateY(5px) skewX(5deg) skewY(1deg);
+transform: scale(1) rotate(-360deg) translateX(-1px) translateY(5px) skewX(5deg) skewY(1deg);
+-webkit-transition: all 1s linear;
+-moz-transition: all 1s linear;
+-ms-transition: all 1s linear;
+-o-transition: all 1s linear;
+transition: all 1s linear;
+
+}
+.Contratar{
+	position: absolute;
+	top: 93%;
+	background: #FF0040;
+	width: 90px;
+	height: 40px;
+	font-size: 20px;
+	margin-left: 19%;
+	text-align: center;
+	color: white;
+	list-style: none;
+
+}
+.Contratar:hover{
+-moz-transform: scale(1) rotate(-360deg) translateX(-1px) translateY(5px) skewX(5deg) skewY(1deg);
+-webkit-transform: scale(1) rotate(-360deg) translateX(-1px) translateY(5px) skewX(5deg) skewY(1deg);
+-o-transform: scale(1) rotate(-360deg) translateX(-1px) translateY(5px) skewX(5deg) skewY(1deg);
+-ms-transform: scale(1) rotate(-360deg) translateX(-1px) translateY(5px) skewX(5deg) skewY(1deg);
+transform: scale(1) rotate(-360deg) translateX(-1px) translateY(5px) skewX(5deg) skewY(1deg);
+-webkit-transition: all 1s linear;
+-moz-transition: all 1s linear;
+-ms-transition: all 1s linear;
+-o-transition: all 1s linear;
+transition: all 1s linear;
+}
+.TituloPrincipal{
+position: absolute;
+top: 50%;
+margin-left: 150px;
+font-size: 35px;
+}
+.Titulo2{
+	position: absolute;
+top: 80%;
+margin-left: 150px;
+font-size: 25px;
+}
+.Seccion{
+	display: block;
+	width: 100%;
+	background: white;
+	
+	height: 600px;
+
+}
+.Seccion img{
+margin-left: 150px;
+margin-top: 130px;
+float: left;
+	
+}
+.SubViñetas{
+font-size: 25px;
+position: absolute;
+top: 210%;
+left: 65%;
+list-style: square;
+margin-left: -5%;
+
+}
+.Viñetas{
+position: absolute;
+top: 185%;
+left: 65%;
+font-size: 30px;
+margin-left: -8%;
+}
+.Footer{
+	background: black;
+	height: 200px;
+	border-top: 10px solid #FF0040;
+	color: white;
+
+}
+.Footer img{
+	margin-top: 10px;
+	margin-left: 150px;
+}
+.Footer p{
+	margin-top: 40px;
+	margin-left: 150px;
+	padding: 10px;
+}
+
+.facebook{
+	width:100px ;
+	height: 90px;
+	text-align: center;
+	border-radius: 50px;
+	display: block;
+	margin-top: 10%;
+	position: fixed;
+	left: 0;
+	top:300;
+	z-index: 2000;
+	padding: 5px;
+}
+
+.facebook  li:hover{
+-moz-transform: scale(2) rotate(-360deg) translateX(23px) translateY(-42px) skewX(3deg) skewY(8deg);
+-webkit-transform: scale(2) rotate(-360deg) translateX(23px) translateY(-42px) skewX(3deg) skewY(8deg);
+-o-transform: scale(2) rotate(-360deg) translateX(23px) translateY(-42px) skewX(3deg) skewY(8deg);
+-ms-transform: scale(2) rotate(-360deg) translateX(23px) translateY(-42px) skewX(3deg) skewY(8deg);
+transform: scale(2) rotate(-360deg) translateX(23px) translateY(-42px) skewX(3deg) skewY(8deg);
+
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
+}
+.face{
+	font-size: 40px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+
+	}
+	.primero{
+		width: 60px;
+		height: 60px;
+		background: #1153EC;
+		text-align:center;
+		border-radius: 100px;
+		display: block;
+		margin-top: 30px;
+
+	}
+	.dos{
+	font-size: 50px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+
+	
+}
+.twitter{
+	font-size: 40px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+
+}
+	.segundo{
+		width: 60px;
+		height: 60px;
+		background: #84EAFE;
+		text-align:center;
+		border-radius: 100px;
+		display: block;
+		margin-top: 30px;
+	}
+	
+.gl{
+	font-size: 40px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+
+}
+.tercero{
+		width: 60px;
+		height: 60px;
+		background: #EF1900;
+		text-align:center;
+		border-radius: 100px;
+		display: block;
+		margin-top: 30px;
+	}
+.Pinter{
+	font-size: 40px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+
+}
+.cuarto{
+	width: 60px;
+		height: 60px;
+		background: #EF1900;
+		text-align:center;
+		border-radius: 100px;
+		display: block;
+		margin-top: 30px;
+	}
+.gmail{
+	font-size: 40px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+}
+.quinto{
+		width: 60px;
+		height: 60px;
+		background: #40DE6B;
+		text-align:center;
+		border-radius: 100px;
+		display: block;
+		margin-top: 30px;
+	}
+
+	@media only screen and (max-width: 768px){
+	/*for mobile phones*/
+	[class*="Responsive"]{
+		width: 100%;
+		font-variant: small-caps;
+
+	}
+	.Footer{
+		background: black;
+	height: 20%;
+	border-top: 10px solid #FF0040;
+	color: white;
+
+	}
+	}
+
+@media  (min-width:375px)and (max-width: 667px){
+
+
+
+	.Planes{
+	
+	top: 40%;
+	background: #34495E  ;
+	width: 40px;
+	height: 20px;
+	font-size: 22px;
+	margin-left: 60%;
+	text-align: center;
+	color: white;
+	list-style: none;
+}
+
+.Contratar{
+
+	top: 40%;
+	background: #34495E;
+	width: 40px;
+	height: 20px;
+	font-size: 22px;
+	margin-left: 30%;
+	text-align: center;
+	color: white;
+	list-style: none;
+	}
+	.TituloPrincipal{
+position: absolute;
+top: 20%;
+margin-left: 70px;
+font-size: 30px;
+}
+.Titulo2{
+	position: absolute;
+top: 30%;
+margin-left: 70px;
+font-size: 20px;
+}
+.SubViñetas{
+font-size: 15px;
+margin: 6px;
+position: absolute;
+top: 175%;
+left: 35%;
+list-style: square;
+margin-left: -7%;
+
+}
+.Viñetas{
+position: absolute;
+top: 178%;
+left: 35%;
+font-size: 15px;
+margin-left: -8%;
+}
+	@media  (min-width:360px)and (max-width: 640px){
+	/*for mobile phones*/
+
+	.header{
+		background-color: #6fe;
+	}
+[class*="Responsive"]{
+		width: 100%;
+		font-variant: small-caps;
+
+	}
+	.Footer{
+		background: black;
+	height: 90%;
+	border-top: 5px solid #FF0040;
+	color: white;
+}
+.Footer img{
+	margin-top: 10px;
+	margin-left: 60px;
+}
+.Footer p{
+	margin-top: 40px;
+	margin-left: 60px;
+	padding: 5px;
+}
+.logo{
+
+background: #82E0AA;
+
+height: 100%;
+}
+.logo img{
+	margin-left: 70px;
+	margin-top: 7px;
+}
+.menu{
+	background: #2ECC71;
+	overflow: hidden;
+	margin-left: auto;
+}
+.menu ul{
+	list-style: none;
+	overflow: hidden;
+	background: #A9CCE3 ;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	float: left;
+	margin-right: 10px;
+}
+.menu ul li{
+	float: left;
+}
+
+.menu ul li a{
+	padding: 5px 10px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	margin-left: 2px 2px;
+	margin: auto;
+}
+
+.menu ul li a:hover{
+	background: black;
+}
+.Fondo{
+font-size: cover;
+
+}
+.Planes{
+	
+	top: 43%;
+	background: #34495E  ;
+	width: 40px;
+	height: 20px;
+	font-size: 18px;
+	margin-left: 60%;
+	text-align: center;
+	color: white;
+	list-style: none;
+}
+
+.Contratar{
+
+	top: 43%;
+	background: #34495E;
+	width: 40px;
+	height: 20px;
+	font-size: 15px;
+	margin-left: 30%;
+	text-align: center;
+	color: white;
+	list-style: none;
+	}
+	.TituloPrincipal{
+position: absolute;
+top: 25%;
+margin-left: 70px;
+font-size: 15px;
+}
+.Titulo2{
+	position: absolute;
+top: 35%;
+margin-left: 70px;
+font-size: 15px;
+}
+.Seccion{
+	display: block;
+	width: 100%;
+	background: white;
+	
+	height: 300px;
+
+}
+.Seccion img{
+margin-left: 60px;
+width: 70%;
+height: 40%;
+margin-top: 15px;
+float: left;
+	}
+
+.SubViñetas{
+font-size: 15px;
+margin: 6px;
+position: absolute;
+top: 185%;
+left: 35%;
+list-style: square;
+margin-left: -7%;
+
+}
+.Viñetas{
+position: absolute;
+top: 178%;
+left: 35%;
+font-size: 15px;
+margin-left: -8%;
+}
+}
+	@media  (min-width:411px)and (max-width: 731px){
+	/*for mobile phones*/
+
+	.header{
+		background-color: #6fe;
+	}
+[class*="Responsive"]{
+		width: 100%;
+		font-variant: small-caps;
+
+	}
+	.Footer{
+		background: black;
+	height: 90%;
+	border-top: 5px solid #FF0040;
+	color: white;
+}
+.Footer img{
+	margin-top: 10px;
+	margin-left: 60px;
+}
+.Footer p{
+	margin-top: 40px;
+	margin-left: 60px;
+	padding: 5px;
+}
+.logo{
+
+background: #85C1E9  ;
+
+height: 100%;
+}
+.logo img{
+	margin-left: 70px;
+	margin-top: 7px;
+}
+.menu{
+	background: #2ECC71;
+	overflow: hidden;
+	margin-left: auto;
+}
+.menu ul{
+	list-style: none;
+	overflow: hidden;
+	background: #A9CCE3 ;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	float: left;
+	margin-right: 10px;
+}
+.menu ul li{
+	float: left;
+}
+
+.menu ul li a{
+	padding: 5px 10px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	margin-left: 2px 2px;
+	margin: auto;
+}
+
+.menu ul li a:hover{
+	background: black;
+}
+.Fondo{
+font-size: cover;
+
+}
+.Planes{
+	
+	top: 43%;
+	background: #34495E  ;
+	width: 40px;
+	height: 20px;
+	font-size: 18px;
+	margin-left: 60%;
+	text-align: center;
+	color: white;
+	list-style: none;
+}
+
+.Contratar{
+
+	top: 43%;
+	background: #34495E;
+	width: 40px;
+	height: 20px;
+	font-size: 15px;
+	margin-left: 30%;
+	text-align: center;
+	color: white;
+	list-style: none;
+	}
+	.TituloPrincipal{
+position: absolute;
+top: 25%;
+margin-left: 70px;
+font-size: 15px;
+}
+.Titulo2{
+	position: absolute;
+top: 35%;
+margin-left: 70px;
+font-size: 15px;
+}
+.Seccion{
+	display: block;
+	width: 100%;
+	background: white;
+	
+	height: 300px;
+
+}
+.Seccion img{
+margin-left: 60px;
+width: 70%;
+height: 40%;
+margin-top: 15px;
+float: left;
+	}
+
+.SubViñetas{
+font-size: 15px;
+margin: 6px;
+position: absolute;
+top: 163%;
+left: 30%;
+list-style: square;
+margin-left: -7%;
+
+}
+.Viñetas{
+position: absolute;
+top: 156%;
+left: 35%;
+font-size: 15px;
+margin-left: -8%;
+}
+}
+
+@media  (min-width:360px)and (max-width: 640px){
+	/*for mobile phones*/
+
+	.header{
+		background-color: #6fe;
+	}
+[class*="Responsive"]{
+		width: 100%;
+		font-variant: small-caps;
+
+	}
+	.Footer{
+		background: black;
+	height: 90%;
+	border-top: 5px solid #FF0040;
+	color: white;
+}
+.Footer img{
+	margin-top: 10px;
+	margin-left: 60px;
+}
+.Footer p{
+	margin-top: 40px;
+	margin-left: 60px;
+	padding: 5px;
+}
+.logo{
+
+background: #82E0AA;
+
+height: 100%;
+}
+.logo img{
+	margin-left: 70px;
+	margin-top: 7px;
+}
+.menu{
+	background: #2ECC71;
+	overflow: hidden;
+	margin-left: auto;
+}
+.menu ul{
+	list-style: none;
+	overflow: hidden;
+	background: #A9CCE3 ;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	float: left;
+	margin-right: 10px;
+}
+.menu ul li{
+	float: left;
+}
+
+.menu ul li a{
+	padding: 5px 10px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	margin-left: 2px 2px;
+	margin: auto;
+}
+
+.menu ul li a:hover{
+	background: black;
+}
+.Fondo{
+font-size: cover;
+
+}
+.Planes{
+	
+	top: 43%;
+	background: #34495E  ;
+	width: 40px;
+	height: 20px;
+	font-size: 18px;
+	margin-left: 60%;
+	text-align: center;
+	color: white;
+	list-style: none;
+}
+
+.Contratar{
+
+	top: 43%;
+	background: #34495E;
+	width: 40px;
+	height: 20px;
+	font-size: 15px;
+	margin-left: 30%;
+	text-align: center;
+	color: white;
+	list-style: none;
+	}
+	.TituloPrincipal{
+position: absolute;
+top: 25%;
+margin-left: 70px;
+font-size: 15px;
+}
+.Titulo2{
+	position: absolute;
+top: 35%;
+margin-left: 70px;
+font-size: 15px;
+}
+.Seccion{
+	display: block;
+	width: 100%;
+	background: white;
+	
+	height: 300px;
+
+}
+.Seccion img{
+margin-left: 60px;
+width: 70%;
+height: 40%;
+margin-top: 15px;
+float: left;
+	}
+
+.SubViñetas{
+font-size: 15px;
+margin: 6px;
+position: absolute;
+top: 185%;
+left: 35%;
+list-style: square;
+margin-left: -7%;
+
+}
+.Viñetas{
+position: absolute;
+top: 178%;
+left: 35%;
+font-size: 15px;
+margin-left: -8%;
+}
+
+
+@media  (min-width:414px)and (max-width: 736px){
+	/*for mobile phones*/
+
+	.header{
+		background-color: #6fe;
+	}
+[class*="Responsive"]{
+		width: 100%;
+		font-variant: small-caps;
+
+	}
+	.Footer{
+		background: black;
+	height: 90%;
+	border-top: 5px solid #FF0040;
+	color: white;
+}
+.Footer img{
+	margin-top: 10px;
+	margin-left: 60px;
+}
+.Footer p{
+	margin-top: 40px;
+	margin-left: 60px;
+	padding: 5px;
+}
+.logo{
+
+background: #82E0AA;
+
+height: 100%;
+}
+.logo img{
+	margin-left: 70px;
+	margin-top: 7px;
+}
+.menu{
+	background: #2ECC71;
+	overflow: hidden;
+	margin-left: auto;
+}
+.menu ul{
+	list-style: none;
+	overflow: hidden;
+	background: #A9CCE3 ;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	float: left;
+	margin-right: 10px;
+}
+.menu ul li{
+	float: left;
+}
+
+.menu ul li a{
+	padding: 5px 10px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	margin-left: 2px 2px;
+	margin: auto;
+}
+
+.menu ul li a:hover{
+	background: black;
+}
+.Fondo{
+font-size: cover;
+
+}
+.Planes{
+	
+	top: 40%;
+	background: #34495E  ;
+	width: 40px;
+	height: 20px;
+	font-size: 22px;
+	margin-left: 60%;
+	text-align: center;
+	color: white;
+	list-style: none;
+}
+
+.Contratar{
+
+	top: 40%;
+	background: #34495E;
+	width: 40px;
+	height: 20px;
+	font-size: 22px;
+	margin-left: 30%;
+	text-align: center;
+	color: white;
+	list-style: none;
+	}
+	.TituloPrincipal{
+position: absolute;
+top: 20%;
+margin-left: 70px;
+font-size: 20px;
+}
+.Titulo2{
+	position: absolute;
+top: 30%;
+margin-left: 70px;
+font-size: 20px;
+}
+.Seccion{
+	display: block;
+	width: 100%;
+	background: white;
+	
+	height: 300px;
+
+}
+.Seccion img{
+margin-left: 60px;
+width: 40%;
+height: 40%;
+margin-top: 15px;
+float: left;
+	}
+
+.SubViñetas{
+font-size: 20px;
+margin: 6px;
+position: absolute;
+top: 155%;
+left: 20%;
+list-style: square;
+
+}
+.Viñetas{
+position: absolute;
+top: 140%;
+left: 70%;
+font-size: 20px;
+}
+
+}
+	@media  (min-width:768px)and (max-width: 1024px){
+	/*for mobile phones*/
+
+	.header{
+		background-color: #6fe;
+	}
+[class*="Responsive"]{
+		width: 100%;
+		font-variant: small-caps;
+
+	}
+	.Footer{
+		background: black;
+	height: 80%;
+	border-top: 5px solid #FF0040;
+	color: white;
+}
+.Footer img{
+	margin-top: 5px;
+	margin-left: 60px;
+}
+.Footer p{
+	margin-top: 90px;
+	margin-left: 60px;
+	padding: 3px;
+}
+.logo{
+
+background: #DC7633 ;
+
+height: 100%;
+}
+.logo img{
+	margin-left: 70px;
+	margin-top: 7px;
+}
+.menu{
+	background: #2ECC71;
+	overflow: hidden;
+	margin-left: auto;
+}
+.menu ul{
+	list-style: none;
+	overflow: hidden;
+	background: #A9CCE3 ;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	float: left;
+	margin-right: 10px;
+}
+.menu ul li{
+	float: left;
+}
+
+.menu ul li a{
+	padding: 5px 10px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	margin-left: 2px 2px;
+	margin: auto;
+}
+
+.menu ul li a:hover{
+	background: black;
+}
+.Fondo{
+font-size: cover;
+
+}
+.Planes{
+	
+	top: 40%;
+	background: #34495E  ;
+	width: 40px;
+	height: 20px;
+	font-size: 24px;
+	margin-left: 30%;
+	text-align: center;
+	color: white;
+	list-style: none;
+}
+
+.Contratar{
+
+	top: 40%;
+	background: #34495E;
+	width: 40px;
+	height: 20px;
+	font-size: 24px;
+	margin-left: 12%;
+	text-align: center;
+	color: white;
+	list-style: none;
+	}
+	.TituloPrincipal{
+position: absolute;
+top: 15%;
+margin-left: 130px;
+font-size: 20px;
+}
+.Titulo2{
+	position: absolute;
+top: 20%;
+margin-left: 130px;
+font-size: 28px;
+}
+.Seccion{
+	display: block;
+	width: 100%;
+	background: white;
+	
+	height: 300px;
+
+}
+.Seccion img{
+margin-left: 60px;
+width: 40%;
+height: 50%;
+margin-top: 15px;
+float: left;
+	}
+
+.SubViñetas{
+font-size: 25px;
+margin: 6px;
+position: absolute;
+top: 115%;
+left: 20%;
+list-style: square;
+margin-left: -7%;
+
+}
+.Viñetas{
+position: absolute;
+top: 103%;
+left: 65%;
+font-size: 25px;
+margin-left: -8%;
+}
+}
+
+@media  (min-width:1024px)and (max-width: 1336px){
+	/*for mobile phones*/
+
+	.header{
+		background-color: #6fe;
+	}
+[class*="Responsive"]{
+		width: 100%;
+		font-variant: small-caps;
+
+	}
+	.Footer{
+		background: black;
+	height: 80%;
+	border-top: -20px solid #FF0040;
+	color: white;
+}
+.Footer img{
+	margin-top: 15px;
+	margin-left: 60px;
+}
+.Footer p{
+	margin-top: 120px;
+	margin-left: 60px;
+	padding: 10px;
+	font-size: 30px;
+}
+.logo{
+
+background: #BDC3C7  ;
+
+height: 100%;
+}
+.logo img{
+	margin-left: 70px;
+	margin-top: 7px;
+}
+.menu{
+	background: #2ECC71;
+	overflow: hidden;
+	margin-left: auto;
+}
+.menu ul{
+	list-style: none;
+	overflow: hidden;
+	background: #A9CCE3 ;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	float: left;
+	margin-right: 10px;
+}
+.menu ul li{
+	float: left;
+}
+
+.menu ul li a{
+	padding: 5px 10px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	margin-left: 2px 2px;
+	margin: auto;
+}
+
+.menu ul li a:hover{
+	background: black;
+}
+.Fondo{
+font-size: cover;
+
+}
+.Planes{
+	
+	top: 30%;
+	background: #34495E  ;
+	width: 40px;
+	height: 20px;
+	font-size: 34px;
+	margin-left: 29%;
+	text-align: center;
+	color: white;
+	list-style: none;
+}
+
+.Contratar{
+
+	top: 30%;
+	background: #34495E;
+	width: 40px;
+	height: 20px;
+	font-size: 34px;
+	margin-left: 11%;
+	text-align: center;
+	color: white;
+	list-style: none;
+	}
+	.TituloPrincipal{
+position: absolute;
+top: 10%;
+margin-left: 130px;
+font-size: 37px;
+}
+.Titulo2{
+	position: absolute;
+top: 20%;
+margin-left: 130px;
+font-size: 33px;
+}
+.Seccion{
+	display: block;
+	width: 100%;
+	background: white;
+	
+	height: 300px;
+
+}
+.Seccion img{
+margin-left: 60px;
+width: 36%;
+height: 50%;
+margin-top: 20px;
+float: left;
+	}
+
+.SubViñetas{
+font-size: 30px;
+margin: 6px;
+position: absolute;
+top: 86%;
+left: 15%;
+list-style: square;
+
+
+}
+.Viñetas{
+position: absolute;
+top: 75%;
+left: 58%;
+font-size: 35px;
+
+}
+}
